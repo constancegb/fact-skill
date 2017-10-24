@@ -17,7 +17,7 @@ const Alexa = require('alexa-sdk');
 
 //Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.
 //Make sure to enclose your value in quotes, like this: const APP_ID = 'amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1';
-const APP_ID = undefined;
+const APP_ID = "amzn1.ask.skill.0743e59c-e1ba-4100-b394-9b5a8fc3165d";
 
 const SKILL_NAME = 'Space Facts';
 const GET_FACT_MESSAGE = "Here's your fact: ";
@@ -29,19 +29,49 @@ const STOP_MESSAGE = 'Goodbye!';
 //TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
 //=========================================================================================================================================
 const data = [
-    'A year on Mercury is just 88 days long.',
-    'Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.',
-    'Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.',
-    'On Mars, the Sun appears about half the size as it does on Earth.',
-    'Earth is the only planet not named after a god.',
-    'Jupiter has the shortest day of all the planets.',
-    'The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.',
-    'The Sun contains 99.86% of the mass in the Solar System.',
-    'The Sun is an almost perfect sphere.',
-    'A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.',
-    'Saturn radiates two and a half times more energy into space than it receives from the sun.',
-    'The temperature inside the Sun can reach 15 million degrees Celsius.',
-    'The Moon is moving approximately 3.8 cm away from our planet every year.',
+    'It will be 140 million years before the length of a day will have increased to 25 hours due to Earth\'s rotation slowing.',
+    'The Milky Way\'s diameter is estimated to be between 100,000 and 180,000 light years.',
+    'In the past, the Earth was believed to be the center of the universe.',
+    'Only one spacecraft has flown by Uranus, Voyager 2.',
+    'Sagittarius A*, a supermassive black hole located at the central core of the Milky Way weights about 4.3 million Suns.',
+    'The Earth is the densest planet in the Solar System.',
+    'After the Moon, Venus is the second brightest object in the night sky.',
+    'Mercury has the highest orbital eccentricity of all the planets.',
+    'When passing by Pluto, the New Horizons spacecraft will have travelled 4.76 billion kilometres.',
+    'The Milky Way moves through space at a speed of 552 kilometres per second.',
+    'Uranus has two sets of very thin dark coloured rings.',
+    'Jupiter has the shortest day of all the planets, lasting 9 hours and 55 minutes.',
+    'Uranus is the coldest planet of the Solar System.',
+    'Saturn can be seen with the naked eye.',
+    'A day on the surface of Mercury lasts 176 Earth days.',
+    'There is a point of no return around a black hole, called the “event horizon” from which not even light can escape.',
+    'New Horizons is the fastest spacecraft launched, at a speed of about 16.26 kilometres a second.',
+    'While in the vicinity of Pluto, a radio signal from New Horizons takes 4 and a half hours to reach Earth.',
+    'There is almost a 15 million degrees difference between the Sun core and surface temperature.',
+    'Pluto has five moons: Charon, Hydra, Nix, Kerberos and Styx.',
+    'Saturn has 150 moons and smaller moonlets.',
+    'The Great Red Spot on Jupiter is a huge storm.',
+    'Mercury does not have any moons or rings.',
+    'Only 18 missions to Mars have been successful.',
+    'Saturn has the second largest moon in the Solar System, Titan.',
+    'Light from the Sun takes eight minutes to reach Earth.',
+    'In the next 20 to 40 million years Mars will have a ring.',
+    'Olympus Mons, a 21-kilometer high voclcano located on Mars is the biggest of our Solar System.',
+    'The Mars Science Laboratory mission that sent Curiosity on the red planet cost $2.5 billion.',
+    'The Curiosity rover that went to Mars had a mobile organic chemistry lab and a laser to vaporise rocks.',
+    'If squashed in, 1.3 million Earths could fit inside the Sun.',
+    'The Sun will one day be about the size of Earth.',
+    'Uranus is often referred to as an “ice giant” planet.',
+    'Mars has the largest dust storms in the solar system.',
+    'Mercury is the second hottest planet, despite being the closest to the Sun.',
+    'Jupiter is large enough for the Earth to fit inside 1,000 times.',
+    'Uranus was officially discovered by Sir William Herschel in 1781.',
+    'Neptune orbits the Sun once every 165 years.',
+    'Eventually, the Sun will expand to the point that it will engulf Mercury, Venus and the Earth.',
+    'Atmospheric pressure on Venus is 92 times greater than the Earth’s.',
+    'The Sun travels at 220 kilometres per second.',
+    'Pieces of Mars have fallen to Earth.',
+    'As the iron core of Mercure cooled and contracted, its surface became wrinkled.',
 ];
 
 //=========================================================================================================================================
